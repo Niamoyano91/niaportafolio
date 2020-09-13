@@ -1,0 +1,79 @@
+body{
+    background-color: #E5AABA;
+}
+
+.containerConsulting{
+    /*background-color: lawngreen;*/
+    margin-top: -200px;
+
+}
+
+.titleconsulting{
+  display: flex;
+  margin-top: 200px;
+  /*background-color: darkgray;*/
+  height: 20vh;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  color: floralwhite;
+  justify-content: center;
+
+}
+
+.imgconsulting{
+    display: flex;
+    /*background-color: royalblue;*/
+    justify-content: center;
+}
+
+.imgconsulting img{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 250px;
+
+}
+
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgs img{
+    width: 10%;
+    margin: 20px;
+}
+
+.parrafconsulting{
+    /*background-color: darkmagenta;*/
+    margin-top: 50px;
+    margin-left: 55px;
+    margin-right: 55px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif;
+    color: floralwhite;
+
+}
+
+.titleconsulting2{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 55px;
+    /*background-color: darkgray;*/
+    height: 20vh;
+    align-items: center;
+    justify-content: left;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: floralwhite;
+  
+  }
+
+@media screen and (min-width: 1000px) {
+
+}
+
+
+

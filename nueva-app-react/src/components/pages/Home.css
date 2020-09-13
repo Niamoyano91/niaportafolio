@@ -1,0 +1,130 @@
+.containerHome {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    animation: change 5s infinite alternate;
+    background-size: cover;
+    
+  }
+  
+  .figureHome{
+    position: fixed;
+    display: flex;
+    margin-top:-450px;
+  }
+
+  a{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+  }
+
+  img{
+    width: 25%;
+  }
+
+
+  .container {
+    width: auto;
+    height: 17vmin;
+    position: relative;
+    font-size: 20vmin;
+    user-select: none;
+  }
+  
+  .first {
+    color: black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: inherit;
+    animation: move 15s infinite alternate;
+  }
+  
+  .second {
+    color: white;
+    position: absolute;
+    transform: translate(-52%, -47%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: inherit;
+    transition: 1s ease-in-out;
+    animation: move 15s ease-out infinite alternate-reverse;
+    will-change: transform;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translate(-45%, -55%);
+      transform: translate(-50%, -50%) scale(2);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes change {
+    from {
+      background-color: white;
+    }
+    to {
+      background-color: #E5AABA;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .containerHome {
+      margin-top: 400px;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      animation: change 5s infinite alternate;
+      background-size: cover;
+    }
+
+    .figureHome{
+      position: fixed;
+      display: flex;
+      margin-top: -700px;
+    }
+
+
+    }
+
+    @media screen and (max-width: 3000px) {
+      .containerHome {
+        margin-top:400px;
+      }
+
+      .figureHome{
+        margin-top: -600px;
+      }
+      @keyframes change {
+        from {
+          background-color: #E5AABA;
+        }
+        to {
+          background-color: #E5AABA;
+        }
+      }
+
+  }
+
+  
+  
+  
+  

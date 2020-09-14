@@ -18,7 +18,7 @@ export default function Consulting() {
         Desde mi niñez me interesó la ciencia y en la programación encontré nuevos desafíos, la tecnología
       exige un estudio permanente que estimula mi creatividad y mis ganas de aprender e impactar vidas.</p>
       </div>
-      <h1 className='titleconsulting2'>HERRAMIENTASs</h1>
+      <h1 className='titleconsulting2'>HERRAMIENTAS</h1>
       <figure className='imgs'>
         <img src="https://i.ibb.co/tPMHcRd/cib-sass-alt.png" alt="cib-sass-alt" border="0" />
         <img src="https://i.ibb.co/6vhfg5g/cib-css3-shiled.png" alt="cib-css3-shiled" border="0" />

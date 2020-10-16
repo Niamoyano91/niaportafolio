@@ -7,7 +7,7 @@ export default function Proyects() {
         <div className="containerProyects">
             <h1 className='titleProyects'>PROYECTOS</h1>
             <figure class="snip0015">
-                <img src="https://i.ibb.co/VTczfp9/Untitled1.jpg" alt="Untitled1" border="0" />
+                <img src="https://i.ibb.co/JHBWMkr/Mac-Book-Pro-1.png" alt="Untitled1" border="0" />
                 <figcaption>
                     <h2>BURGUER<span><h3>QUEEN</h3></span></h2>
                     <p>Aplicación para servicios de Restaurant. </p>
